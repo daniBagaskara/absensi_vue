@@ -73,11 +73,11 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-const email: string = ref('')
-const password: string = ref('')
+const email = ref('')
+const password = ref('')
 const router = useRouter()
-const errorMessage: string = ref('')
-const Loading: boolean = ref(false)
+const errorMessage = ref('')
+const Loading = ref(false)
 
 const login = () => {
   Loading.value = true
